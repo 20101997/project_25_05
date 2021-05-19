@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CAEN RFID Easy Controller</string>
+    <string name="add_reader_button">Add Reader</string>
+
+    <string name="bt_selection_title">Choose a bluetooth device</string>
+    <string name="inventory_button_start">Start Inventory</string>
+    <string name="inventory_button_stop">Stop Inventory</string>
+    <string name="total_found">TOTAL FOUND:</string>
+    <string name="current_found">Tags/Sec:</string>
+    <string name="clear_button">Clear</string>
+    <string name="reader_image">Reader Image</string>
+    <string name="zero">0</string>
+
+    <string name="program_tag_selected_tag_label">Tag Selected:</string>
+    <string name="read_and_write_title_label">read</string>
+    <string name="read_and_write_activity">read</string>
+
+    <string name="easy_controller_products_description">CAEN RFID Easy Controller provides a demo for CAEN RFID Products</string>
+
+
+
+    <string name="_0">0</string>
+
+
+    <string name="title_activity_bleselection">BLE Selection</string>
+    <string name="banner">Easy Controller</string>
+
+</resources>

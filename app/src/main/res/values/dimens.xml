@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="small_margin">7dp</dimen>
+    <dimen name="default_margin">20dp</dimen>
+    <dimen name="group_margin">60dp</dimen>
+    <dimen name="statistic_margin">5dp</dimen>
+    <dimen name="table_margin">5dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="rt0005selectedtag">16sp</dimen>
+    <dimen name="rt0005temperature">60sp</dimen>
+    <dimen name="rt0005alarmlabel">20sp</dimen>
+    <dimen name="rt0005_mk_sl_value">25dp</dimen>
+    <dimen name="rapid_current_font_size">172sp</dimen>
+    <dimen name="rssi_mask_size_width">320dp</dimen>
+    <dimen name="rssi_mask_size_height">320dp</dimen>
+
+</resources>

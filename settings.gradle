@@ -1,0 +1,2 @@
+include ':app', ':CAENRFIDLibrary-release'
+rootProject.name='EasyController'

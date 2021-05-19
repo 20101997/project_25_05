@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/caenrfid_green</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/caenrfid_green</item>
+    </style>
+    <style name="inventory_button_style" parent="android:Widget.Button">
+        <item name="android:textSize">24sp</item>
+    </style>
+    <!-- style for tab widget -->
+    <style name="CustomTheme" parent="AppTheme">
+        <item name="android:tabWidgetStyle">@style/CustomTabWidget</item>
+    </style>
+    <style name="CustomTabWidget" parent="@android:style/Widget.TabWidget">
+        <item name="android:textAppearance">@style/CustomTabWidgetText</item>
+    </style>
+    <style name="CustomTabWidgetText"
+        parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

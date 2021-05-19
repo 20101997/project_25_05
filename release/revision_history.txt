@@ -1,0 +1,178 @@
+-------------------------------------------------------------------------------
+- REVISION HISTORY
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+
+- Rev.   : 1.11.0
+- Date   : 08/03/2021
+- Author : Andrea Iavazzo
+- Notes  :
+
+--) Fixed detection algorithm bug for Leghorn e-seal (Standard and Tri-State).
+
+-------------------------------------------------------------------------------
+
+- Rev.   : 1.10.0
+- Date   : 05/02/2021
+- Author : Andrea Iavazzo
+- Notes  :
+
+--) Added support for Leghorn e-seal (Standard and Tri-State).
+
+-------------------------------------------------------------------------------
+
+- Rev.   : 1.9.0
+- Date   : 16/12/2020
+- Author : Andrea Iavazzo
+- Notes  :
+
+--) Changed colour scheme
+--) Fixed a bug on manifest for the missing TCPSelector activity
+--) Fixed networking operation on UI Thread exception for radar and speed read 
+    test activities
+
+-------------------------------------------------------------------------------
+
+- Rev.   : 1.8.0
+- Date   : 25/11/2020
+- Author : Andrea Iavazzo
+- Notes  :
+
+--) Added support to BLE devices (e.g.  skID reader)
+--) Added Speed Read Test activity
+--) Added info in VCP Selection activity about port protocol.
+--) Added Radar Activity
+--) Reinforced bluetooth classic connection task.
+--) New icon logo and banner
+--) New minimum Adnroid version elevated to 5.1
+
+-------------------------------------------------------------------------------
+
+- Rev.   : 1.7.0
+- Date   : 04/09/2020
+- Author : Andrea Iavazzo
+- Notes  :
+
+--) Refactorized the "Save list" operation in the Inventory Activity
+    due to new Android Storage API.
+--) Added support for RT0013 in Control Room Activity.
+--) Minor changes in Control Room Activity's layout.
+--) Improved bluetooth connection managing.
+--) Minor typo fixes.
+--) Upgrade to 1.7.0 for release and publishing to Google Play.
+
+-------------------------------------------------------------------------------
+- Rev.   : 1.6.0
+- Date   : 26/11/2019
+- Author : Andrea Iavazzo
+- Notes  :
+
+--) Upgrade to 1.6.0 for release and publishing to Google Play.
+
+
+-------------------------------------------------------------------------------
+- Rev.   : 1.5.2
+- Date   : 26/11/2019
+- Author : Andrea Iavazzo
+- Notes  :
+
+--) Reintroduced support for USB devices
+--) Refactorized Network operations code pieces
+--) Added support for RT0012
+--) Changed basic images and Icons
+--) Upgraded to Android X
+--) Minimum API level required set to 15
+
+-------------------------------------------------------------------------------
+- Rev.   : 1.5.1
+- Vers.  : 10
+- Date   : 30/07/2019
+- Author : Cristiano Guidoccio
+- Notes  :
+
+--) Reintroduced menu for option and settings
+--) Upgraded to Android 8
+--) Minimum API level required set to 14
+
+--) upgrade to Android 9+
+
+-------------------------------------------------------------------------------
+- Rev.   : 1.5.0
+- Date   : 9/07/15
+- Author : Andrea Iavazzo
+- Notes  : 
+
+--) Added a new options for saving epc list to a csv file.
+--) Refactoring of the antenna settings activity management.
+-------------------------------------------------------------------------------
+- Rev.   : 1.4.0
+- Date   : 11/12/14
+- Author : Andrea Iavazzo
+- Notes  : 
+
+--) Upgraded to 1.4.0 for release
+-------------------------------------------------------------------------------
+- Rev.   : 1.3.2
+- Date   : 26/06/14
+- Author : Andrea Iavazzo
+- Notes  : 
+
+--) Build a temporal window to show a more uniform Tags/Sec parameter.
+--) Some minor bug fix.
+-------------------------------------------------------------------------------
+- Rev.   : 1.3.1
+- Date   : 17/03/14
+- Author : Andrea Iavazzo
+- Notes  : 
+
+--) Improved inventory using a dedicated AsyncTask instance instead of calling
+    "runOnUIThread()" everytime callback's fired.
+-------------------------------------------------------------------------------
+- Rev.   : 1.3.0
+- Date   : 25/07/13
+- Author : Andrea Iavazzo
+- Notes  : 
+
+--) Upgraded to 1.3.0 for release
+--) Now, if secure version of Bluetooth create Service Record fail, then the
+    insecure version is used.
+--) Added control over finalizing Connection enstablishment and discovery stopping.
+--) Removed some debug logs
+
+-------------------------------------------------------------------------------
+- Rev.   : 1.2.1
+- Date   : 10/07/13
+- Author : Andrea Iavazzo
+- Notes  : 
+
+--) Fixed a Toast.show() bug when banner was touched in a device without any 
+    installed browser.
+--) Fixed some unused import and variables.
+--------------------------------------------------------------------------------
+- Rev.   : 1.2.0
+- Date   : 03/03/13
+- Author : Andrea Iavazzo
+- Notes  : 
+
+--) Upgraded to 1.2.0 for release.
+--------------------------------------------------------------------------------
+- Rev.   : 1.1.0
+- Date   : 26/02/13
+- Author : Andrea Iavazzo
+- Notes  : 
+
+--) Added a control room for RT0005 logger tag.
+--------------------------------------------------------------------------------
+- Rev.   : 1.0.1
+- Date   : 5/11/12
+- Author : Andrea Iavazzo
+- Notes  : 
+
+--) Correct refresh and colour gradient dynamic when enabling RSSI. 
+
+--------------------------------------------------------------------------------
+- Rev.   : 1.0.0
+- Date   : 25/10/12
+- Author : Andrea Iavazzo
+- Notes  : First emission
+------------------------------------------------------

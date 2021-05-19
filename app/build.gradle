@@ -1,0 +1,43 @@
+apply plugin: 'com.android.application'
+android {
+    signingConfigs {
+        release {
+            storeFile file('C:\\Users\\wsi\\Desktop\\Demo Android\\KeyStore Ufficiale\\EasyKeyStore')
+            storePassword 'caenrfid'
+            keyAlias = 'easycontroller'
+            keyPassword 'caenrfid'
+        }
+       // C:\Users\wsi\Desktop\Demo Android\KeyStore Ufficiale\EasyKeyStore
+    }
+    compileSdkVersion 30
+    defaultConfig {
+        applicationId "com.caen.easyController"
+        minSdkVersion 22
+        targetSdkVersion 30
+        maxSdkVersion 29
+        versionCode 20
+        versionName '1.11.0'
+        signingConfig signingConfigs.release
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+            signingConfig signingConfigs.release
+        }
+    }
+    productFlavors {
+    }
+    buildToolsVersion '29.0.3'
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation project(path: ':CAENRFIDLibrary-release')
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+}

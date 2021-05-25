@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/EasyController.iml" filepath="$PROJECT_DIR$/.idea/modules/EasyController.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CAENRFIDLibrary-release/EasyController.CAENRFIDLibrary-release.iml" filepath="$PROJECT_DIR$/.idea/modules/CAENRFIDLibrary-release/EasyController.CAENRFIDLibrary-release.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/EasyController.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/EasyController.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CAENRFIDLibrary-release/EasyController.CAENRFIDLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/CAENRFIDLibrary-release/EasyController.CAENRFIDLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rfid/EasyController.rfid.iml" filepath="$PROJECT_DIR$/.idea/modules/rfid/EasyController.rfid.iml" />
     </modules>
   </component>
 </project>

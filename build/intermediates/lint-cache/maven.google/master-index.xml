@@ -43,12 +43,14 @@
   <androidx.drawerlayout/>
   <androidx.dynamicanimation/>
   <androidx.emoji/>
+  <androidx.emoji2/>
   <androidx.enterprise/>
   <androidx.exifinterface/>
   <androidx.fragment/>
   <androidx.games/>
   <androidx.gaming/>
   <androidx.gridlayout/>
+  <androidx.health/>
   <androidx.heifwriter/>
   <androidx.hilt/>
   <androidx.interpolator/>
@@ -62,6 +64,8 @@
   <androidx.mediarouter/>
   <androidx.multidex/>
   <androidx.navigation/>
+  <androidx.navigation.safeargs/>
+  <androidx.navigation.safeargs.kotlin/>
   <androidx.paging/>
   <androidx.palette/>
   <androidx.percentlayout/>
@@ -152,6 +156,7 @@
   <com.google.android.enterprise.connectedapps/>
   <com.google.android.exoplayer/>
   <com.google.android.fhir/>
+  <com.google.android.flexbox/>
   <com.google.android.games/>
   <com.google.android.gms/>
   <com.google.android.instantapps/>

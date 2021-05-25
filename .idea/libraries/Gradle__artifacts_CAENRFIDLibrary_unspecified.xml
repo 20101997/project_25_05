@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: artifacts:CAENRFIDLibrary:unspecified">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/CAENRFIDLibrary/build/.transforms/4a0b9a46f01be25ffa21fa27b1b0a2be/jetified-CAENRFIDLibrary-release/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/CAENRFIDLibrary/build/.transforms/4a0b9a46f01be25ffa21fa27b1b0a2be/jetified-CAENRFIDLibrary-release/res" />
+      <root url="file://$PROJECT_DIR$/CAENRFIDLibrary/build/.transforms/4a0b9a46f01be25ffa21fa27b1b0a2be/jetified-CAENRFIDLibrary-release/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

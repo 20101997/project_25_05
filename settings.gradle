@@ -1,2 +1,2 @@
-include ':app', ':CAENRFIDLibrary-release'
+include ':rfid', ':CAENRFIDLibrary'
 rootProject.name='EasyController'

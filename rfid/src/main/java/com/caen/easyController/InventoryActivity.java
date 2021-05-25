@@ -81,21 +81,6 @@ public class InventoryActivity extends AppCompatActivity implements CAENRFIDBLEC
     };
 
 
-/*
-    class CurrentUpdater implements Runnable {
-        private String mNum;
-
-        public CurrentUpdater(String val) {
-            this.mNum = val;
-        }
-
-    *//*    @Override
-        public void run() {
-            mCurrentFound.setText(this.mNum);
-        }*//*
-
-    }*/
-
     class InventoryTask extends AsyncTask<Object, Object, Void>
             implements CAENRFIDEventListener {
 

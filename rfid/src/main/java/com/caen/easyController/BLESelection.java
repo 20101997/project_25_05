@@ -318,7 +318,6 @@ public class BLESelection extends Activity {
 
     private void showProgressBar() {
         mProgressBar.setVisibility(View.VISIBLE);
-       // mProgressBarTitle.setText(R.string.vcp_refreshing);
     }
 
     private void hideProgressBar() {

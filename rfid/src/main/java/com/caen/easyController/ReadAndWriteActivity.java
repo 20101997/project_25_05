@@ -13,7 +13,6 @@ import com.caen.RFIDLibrary.CAENRFIDTag;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 
 import static java.lang.String.valueOf;
